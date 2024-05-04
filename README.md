@@ -2,7 +2,7 @@
 
 A whack-a-mole game built solely in vanilla JavaScript by Wahyu Fatur Rizki.
 
-[![Screenshot of the Whack-a-mole game](http://res.cloudinary.com/gerhynes/image/upload/v1519758114/whack-a-mole_vyyfua.jpg)](https://github.com/wahyufaturrizky/whack-a-mole/)
+[![Screenshot of the Whack-a-mole game](![alt text](image.png))](https://github.com/wahyufaturrizky/whack-a-mole/)
 
 ## Notes
 
