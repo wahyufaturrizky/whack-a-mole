@@ -1,12 +1,12 @@
 # Whack-a-mole
 
-A whack a mole game built solely in vanilla JavaScript for Wes Bos' [JavaScript 30](https://javascript30.com/) course.
+A whack-a-mole game built solely in vanilla JavaScript by Wahyu Fatur Rizki.
 
-[![Screenshot of the Whack-a-mole game](http://res.cloudinary.com/gerhynes/image/upload/v1519758114/whack-a-mole_vyyfua.jpg)](https://gk-hynes.github.io/whack-a-mole/)
+[![Screenshot of the Whack-a-mole game](http://res.cloudinary.com/gerhynes/image/upload/v1519758114/whack-a-mole_vyyfua.jpg)](https://github.com/wahyufaturrizky/whack-a-mole/)
 
 ## Notes
 
-The goal is to have moles appear in random holes for random amounts of time. The tally of clicked on moles is also logged.
+The goal is to have moles appear in random holes for random amounts of time. The tally of clicked-on moles is also logged.
 
 First, select the holes, moles, and scoreboard.
 
@@ -32,7 +32,7 @@ At the end of the function let `lastHole` = `hole`. This will save a reference t
 
 If `hole` equals `lastHole` run the function again.
 
-If `hole` doesn't equal `lastHole`, return `hole`. Otherwise return `randomHole(holes)`.
+If `hole` doesn't equal `lastHole`, return `hole`. Otherwise, return `randomHole(holes)`.
 
 Create a function, `peep`, which will cause the moles to pop up.
 
@@ -70,13 +70,13 @@ Make a function, `bonk`, which takes in an event.
 
 Take all of the moles and listen for a click on each of them.
 
-On all events is a property called `isTrusted`. If you fake clicking something, e.g. using JavaScript, this will be false.
+On all events is a property called `isTrusted`. If you fake clicking something, e.g., using JavaScript, this will be false.
 
 If `e` is not `isTrusted` then return.
 
-Crete a let variable, score, equal to 0.
+Create a let variable, score, equal to 0.
 
-Inside `bonk()` increment `score`, remove the `up` class, and set the text content of `scoreBoard` to `score`.
+Inside `bonk()`, increment `score`, remove the `up` class, and set the text content of `scoreBoard` to `score`.
 
 ```js
 function bonk(e) {

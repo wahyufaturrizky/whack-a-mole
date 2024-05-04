@@ -1,0 +1,22 @@
+{
+  "name": "whack-a-mole",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahyufaturrizky/whack-a-mole.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "https://www.linkedin.com/in/wahyu-fatur-rizky/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahyufaturrizky/whack-a-mole/issues"
+  },
+  "homepage": "https://github.com/wahyufaturrizky/whack-a-mole#readme"
+}
